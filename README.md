@@ -1,165 +1,144 @@
-<html lang="en"><head>
-    
-    <title>Document</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer">
-    <style>
-        h3 {
-           font-family: Arial, Helvetica, sans-serif;
+<html>
+    <head>
+        <title>CV GEEK</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <style>
+            body {
+                margin: 0;
         }
-        body {
-            margin: 0px;
-        }
-        header {
-            background-color: black;
-            color: white;
+        #header {
+            background-color: rgb(54, 22, 22);
             height: 70px;
+            color: white;
         }
         #brand {
-            width: 40%;
-         
-            height: 70px;
-            float: left;
+            color: cornsilk;
             text-align: center;
+            height: 70px ;
+            width: 40%;
+            float: left;
         }
         #menu {
-            width: 60%;
-            text-align: center;
+            line-height: 70px ;
+            color: cornsilk ;
+            height: 70px ;
             float: right;
-            height: 70px;
-            
+            width: 60%
         }
-        h1 {
-            line-height: 35px;
+        span {
+            margin-right: 30px;
         }
-        a {
-            color: cornsilk;
-            text-decoration: white;
-            margin-right: 50px;
-            line-height: 70px;
+        img {
+            border-radius: 50%
         }
-        /*  Main Section */
-        main{
-            width: 100%;
-        
-           
+        table {
+            width: 100% ;
+            text-align: center;
+            margin-top: 100px ;
         }
-        #imgSection {
+        #im {
+            float: left;
             width: 40%;
             text-align: center;
             height: 400px;
-            float: left;
-            
+            margin-top: 120px;
+
         }
-        #infoSection {
-            width: 60%;
+        #para {
             float: right;
+            width: 60% ;
             height: 400px;
+            margin-top: 120px;
             
         }
-   img {
-       border-radius: 50%;
-       margin-top: 150px;
-     
-   }
-   #div {
-       margin-top: 150px;
-      
-   }
-   table {
-       width: 100%;
-        text-align: center;
-   }
-   /* Footer Section */
-   footer section h2 {
-       display: inline-block;
-   }
-   
-    </style>
-</head>
-<body>
-      <header>
-       <nav>
-           <section id="brand">
-              <h1>My Portfolio</h1>
-           </section>
-           <section id="menu">
-           <a href="#Home">Home</a>
-           <a href="#Home">Profile</a>
-           <a href="#Home">Resume</a>
-           <a href="#Home">Contact</a>
-           </section>
-       </nav>
-      </header>
-      <main>
-          <section id="mainSection">
-          <section id="imgSection">
-          <img src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" width="300px" height="300px">
-          </section>
-          <section id="infoSection">
-           <div id="div">
-               <h4>Hi there!!</h4>
-               <h2>I am AAQIB RASHID</h2>
-               <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam nulla nisi rerum sequi dolorum facilis deleniti fuga dolorem dignissimos tempora.</p>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus dicta beatae molestiae, voluptas doloremque magni voluptates consequuntur error ut, ad eveniet, perspiciatis maiores at asperiores illo id! Consequuntur, possimus, quisquam rerum eius modi tempore iure eum molestias ratione a dicta!</p>
-              <b>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam numquam incidunt impedit ratione alias explicabo tempora culpa deleniti, nam optio?</b>
+        #footer {
+            background-color: rgb(51, 19, 19);
+            margin-left: 30px;
+            padding: 30px;
+            text-align: center;
+            color: whitesmoke;
+        }
+        #footersec {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        #footersec h2{
+            margin-right: 50px ;
+        }
+        #footersec h2 a{
+            color: whitesmoke;
+        }
+
+        </style>
+    </head>
+    <body>
+        <div id="header">
+            <div id="brand">
+              <h2>My Portfolio</h2>
             </div>
+            <div id="menu">
+              <span>Home </span>
+              <span>Profile </span>
+              <span>Resume </span>
+              <span>Contact </span>
+            </div>
+        </div>
+        <div id="main">
+            <div id="im">
+                <img src="https://images.pexels.com/photos/3785077/pexels-photo-3785077.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500 " width="300px" height="300px" />
+            </div> 
+            <div id="para">
+                <h4>Hey there!!!</h4>
+                <h2>I am Nilanjan</h2>
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem, excepturi quod, animi quisquam corporis quos quibusdam optio ratione accusamus nobis fugit, omnis quaerat cumque qui necessitatibus distinctio asperiores id consectetur consequatur est ut veniam porro quidem blanditiis. Eos omnis dolores officia ipsam illo hic blanditiis, porro laudantium natus expedita vitae!
+                </p>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. In aliquid nihil nostrum similique ad, debitis libero quas architecto distinctio error a temporibus ducimus dolorem. Sequi adipisci enim minima unde et odio dolore itaque consectetur in quisquam, quod minus? Sapiente quis eius ad? Unde odio accusamus nemo nobis excepturi ratione fugiat, dolore ea corporis nihil, earum placeat cupiditate facilis esse est, ullam facere iste eligendi mollitia? Autem fuga dolorem voluptates inventore!</p>
+                <p>
+                    <b>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam eos magnam sapiente sunt blanditiis animi. Architecto perferendis magni necessitatibus provident.
             
-          </section>
-          <section>
-            <div>
-                <table>
-                    <tbody><tr>
-                        <td>
-                            <div>
-                              <img src="https://images.pexels.com/photos/4065864/pexels-photo-4065864.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;w=500" width="200px" height="200px">
-                              <h3>Profile</h3>
-                            </div>
-                        </td>
-                        <td>
-                          <div>
-                            <img src="https://images.pexels.com/photos/5989925/pexels-photo-5989925.jpeg?cs=srgb&dl=pexels-cottonbro-5989925.jpg&fm=jpg" width="200px" height="200px">
-                            <h3>Resume</h3>
-                          </div>
-                      </td>
-                      <td>
-                          <div>
-                            <img src="https://images.pexels.com/photos/3194519/pexels-photo-3194519.jpeg?cs=srgb&dl=pexels-canva-studio-3194519.jpg&fm=jpg" width="200px" height="200px">
-                            <h3>Project</h3>
-                          </div>
-                      </td>
-                      <td>
-                          <div>
-                            <img src="https://images.pexels.com/photos/1416530/pexels-photo-1416530.jpeg?cs=srgb&dl=pexels-chept%C3%A9-cormani-1416530.jpg&fm=jpg" width="200px" height="200px">
-                            <h3>Contact</h3>
-                          </div>
-                      </td>
-                    </tr>
-                </tbody></table>
+                    </b>
+                </p>
             </div>
-          </section>
-         
-          </section>
-
-      </main>
-
-    <footer style="background-color: rgb(37, 27, 27); margin-top: 50px;padding: 20px;text-align: center; color: whitesmoke;">
-        <section>
-           <h2> <a href=""><i class="fab fa-facebook"></i></a></h2>
-           <h2> <a href=""><i class="fab fa-twitter"></i></a></h2>
-           <h2> <a href=""><i class="fab fa-instagram"></i></a></h2>
-           <h2> <a href=""><i class="fab fa-linkedin"></i></a></h2>
-
-        </section>
-        <section>
-            <p><b>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi fugiat assumenda ullam, cumque nam reiciendis, delectus porro doloribus quae incidunt culpa dolores ratione est, quo adipisci nesciunt ipsum laudantium ab!</b></p>
-        </section>
-        <section>
-            copyright ©
-            Reserved All Rights
-            <h4>AAQIB RASHID</h4>
-        </section>
-    </footer>
-
-
-
-</body></html>
+        </div>
+        <div>
+            <table>
+                <td>
+                    <img src="https://images.pexels.com/photos/246805/pexels-photo-246805.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" width="200px" height="200px" />
+                    <h4>Profile</h4>
+                </td>
+                <td>
+                    <img src="https://images.pexels.com/photos/5989925/pexels-photo-5989925.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" width="200px" height="200px" />
+                    <h4>Projects</h4>
+                </td>
+                <td>
+                    <img src="https://images.pexels.com/photos/3194519/pexels-photo-3194519.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" width="200px" height="200px" />
+                    <h4>Resume</h4>
+                </td>
+                <td>
+                    <img src="https://images.pexels.com/photos/887751/pexels-photo-887751.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" width="200px" height="200px" />
+                    <h4>Contacts</h4>
+                </td>
+            </table>
+        </div>
+        <div id="footer">
+            <div id="footersec">
+                <h2> <a href=""><i class="fab fa-facebook"></i></a></h2>
+                <h2> <a href=""><i class="fab fa-twitter"></i></a></h2>
+                <h2> <a href=""><i class="fab fa-instagram"></i></a></h2>
+                <h2> <a href=""><i class="fab fa-linkedin"></i></a></h2>
+                <h2> <a href=""><i class="fab fa-github"></i></a></h2>
+                <h2> <a href=""><i class="fab fa-hackerrank"></i></a></h2>
+            </div>
+            <div>
+                <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo non doloremque ab repudiandae iure vel praesentium amet ipsa a quia, debitis beatae blanditiis eum maiores vitae repellat cum saepe? Pariatur.</h4>
+            </div>
+            <div>
+                <h5>ALL copyrights &copy; are Reserved by </h5>
+                <h4>Nilanjan Mandal</h4>
+            </div>
+        </div>
+    </body>
+</html>
